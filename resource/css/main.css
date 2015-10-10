@@ -1,0 +1,220 @@
+/*GENERAL*/
+body {
+	background-color: #E9EAED;
+}
+
+.tall-header-content {
+	height: 90vh;
+}
+
+.short-header-content {
+	height: 50vh;
+}
+
+.header-text {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+	color: white;
+}
+
+.header-text h1 {
+	font-size: 100px;
+}
+
+.header-text .header-intro {
+	font-size: 40px;
+}
+
+.navigation-bar {
+	background-color: #F96902;
+	margin: 0;
+}
+
+.navigation-bar-option {
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
+
+ul.navigation-bar-option li > a {
+	color: white !important;
+}
+
+.footer {
+	background-color: #F96902;
+}
+
+.footer-content {
+	margin: 40px 0px;
+}
+
+/*SELECTION CARD*/
+.selection-card-content {
+	margin: 40px 0px;
+}
+
+.selection-card-item {
+	text-align: center;
+	height: 300px;
+	width: 100%;
+}
+
+.selection-card-text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);;
+	color: white;
+}
+
+/*PREVIEW CARD*/
+.preview-card-content {
+	background-color: rgba(34,34,34,0.93);
+	margin: 40px 0px;
+}
+
+.preview-card-picture {
+	margin: 50px 50px;
+	height: 400px;
+}
+
+.preview-card-title {
+	color: white;
+	margin: 25px 50px;
+}
+
+.preview-card-description {
+	color: white;
+	margin: 25px 50px;
+}
+
+/*POST*/
+.post-sidebar {
+	padding: 0px 20px;
+	padding-left: 30px;
+	padding-right: 0px;
+}
+
+.post-sidebar-directory {
+	padding: 0;
+	margin: 25px 0px;
+	color: white;
+	background-color: #95A5A6;
+	border-radius: 4px;
+	/*background-color: #FFFFEE;*/
+	/*border-width: 2px;
+	border-radius: 4px;
+	border-style: solid;
+	border-color: #F96902;*/
+	text-align: center;
+}
+
+.post-sidebar-title, .post-sidebar-option {
+	padding: 5px;
+}
+
+.post-sidebar-title {
+	color: white;
+	background-color: #F96902;
+}
+
+.post-sidebar-option:hover {
+	color: white;
+	border-radius: 4px;
+	background-color: #F96902;
+}
+
+.post-content {
+	padding: 0px 30px;
+}
+
+.post-content-panel {
+	padding: 15px 20px;
+	margin: 25px 0px;
+	color: white;
+	background-color: rgba(34,34,34,0.93);
+	border-radius: 4px;
+	/*border-width: 2px;
+	border-style: solid;
+	border-color: #F96902;*/
+}
+
+.post-content-img {
+	height: 400px;
+	width: 100%;
+}
+
+/*IMAGE*/
+.academic-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url('../img/academic.jpeg');
+	overflow: hidden;
+}
+
+.admission-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url('../img/admission.jpeg');
+	overflow: hidden;
+}
+
+.exchange-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url('../img/exchange.jpeg');
+	overflow: hidden;
+}
+
+.internship-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url('../img/internship.jpeg');
+	overflow: hidden;
+}
+
+.ivle-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.1),
+		rgba(0, 0, 0, 0.1)
+	), url('../img/ivle.png');
+	overflow: hidden;
+}
+
+.nusmods-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.1),
+		rgba(0, 0, 0, 0.1)
+	), url('../img/nusmods.png');
+	overflow: hidden;
+}
+
+.nus-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url('../img/nus.jpg');
+}
+
+.residence-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url('../img/residence.jpg');
+	overflow: hidden;
+}
+
+.seminar-img {
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.4),
+		rgba(0, 0, 0, 0.4)
+	), url('../img/seminar.jpg');
+	overflow: hidden;
+}
